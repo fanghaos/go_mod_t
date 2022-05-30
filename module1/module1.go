@@ -2,7 +2,7 @@ package module1
 
 import (
 	"fmt"
-	fun "github.com/fanghaos/go_mod_t/module1/fun"
+	fun "github.com/fanghaos/go_mod_t/module1/v2/fun"
 )
 
 func Fun1() {
