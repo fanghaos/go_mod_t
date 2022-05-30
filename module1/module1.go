@@ -1,9 +1,13 @@
 package module1
 
-import "fmt"
+import (
+	"fmt"
+	fun "github.com/fanghaos/go_mod_t/module1/fun"
+)
 
 func Fun1() {
 	fmt.Println("module1")
+	fun.Module1Fun()
 }
 
 func Fun2() {
